@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Form Validation</title>
+  <script type="text/javascript" src="validate.js"></script>
+  <style>
+   #form{
+    text-align:center;
+   }
+  </style>
+ </head>
+ <body>
+  <div id="form">
+   <form>
+   <h1>Registration Form</h1><br>
+   <input type="text" id="nameInput" placeholder=" Enter name " required onblur="validateName()"><br>
+   <input type="text" id="ageInput" placeholder=" Enter age " required onblur="validateAge()"><br>
+   <input type="text" id="phInput" placeholder=" Enter Phone Number " required onblur="validatePh()"><br>
+   <input type="text" id="mailInput" placeholder=" Enter mail id " required onblur="validateMail()"><br>
+   <input type="text" id="dateInput" placeholder=" Enter age " required onblur="validateDate()"><br>
+   <input type="button" value="Submit!" onclick="submitDet()">
+   </form>
+  </div>
+ </body>
+</html>
